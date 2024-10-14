@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indianapolis Food Fair</title>
+</head>
+<style>
+
+    section{
+        margin-top: 100px;
+    }
+
+    .main-block{
+        background-color: aquamarine;
+        width: 800px;
+        height: 300px;
+        border-radius: 20px;
+        margin: auto;
+    }
+    .main-block h1{
+        text-align: center;
+        font-size: 60px;
+        position: relative;
+        top: -40px;
+        margin: 0;
+    }
+    .main-block p{
+        margin: 30px;
+    }
+
+    /* CONTENT BOX CSS */
+    .content-box{
+        background-color: white;
+        width: 160px;
+        height: 160px;
+        border: solid 1px;
+        border-radius: 10px;
+        margin-top: -20px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+    }
+    .content p {
+        background-color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 100%;
+        margin: 20px 0 0 0;
+        opacity: .9;
+    }
+
+    /* CUISINE BOX CSS */
+    .american{
+        background-image: url("american.jpg");
+        background-size: 300px;
+        background-position-x: -60px;
+    }
+    .chinese{
+        background-image: url("chinese.jpg");
+        background-size: 300px;
+        background-position-x: -60px;
+    }
+    .greek{
+        background-image: url("greek.jpg");
+        background-size: 300px;
+        background-position-x: -60px;
+    }
+    .italian{
+        background-image: url("italian.png");
+        background-size: 300px;
+        background-position-x: -60px;
+    }
+
+    a:link, a:visited, a:hover, a:active 
+    { text-decoration: none; color: black;}
+
+</style>
+
+<body>
+    <section>
+        <div class="main-block">
+            <div class="home-btn">
+            </div>
+            <h1>Best Eats in Indy</h1>
+            <div class="content">
+
+                <a href="american.html">
+                <div class="content-box american">
+                    
+                    <p>American</p>
+                </div>
+                </a>
+
+                <a href="chinese.html">
+                <div class="content-box chinese">
+                    <p>Chinese</p>
+                </div>
+                </a>
+
+                <a href="greek.html">
+                <div class="content-box greek">
+                    <p>Greek</p>
+                </div>
+                </a>
+
+                <a href="italian.html">
+                <div class="content-box italian">
+                    <p>Italian</p>
+                </div>
+                </a>
+            </div>
+            <p>
+                These are the most popular food choices made by Hoosiers this week. Click the link and see the most awarded restaurants in Indiana. Choose from the category displayed above.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
